@@ -14,7 +14,7 @@ Then we build the rust program. Sequently we also build the wrapper for the rust
 We use the functions of the rust program in our JavaScript in `index.html` file through the wrapper we just made. 
 
 4. **_Output_**: 
-The website created just says 2 lines, the first one is "WebAssembly with Rust" which is a h1 tag hardcoded into the html file, which the other sentence is the output from the Rust program! 
+The website created just says 2 lines, the first one is "WebAssembly with Rust" which is a h1 tag hardcoded into the html file, the other sentence is the output from the Rust program! 
 
 So basically we just integrated Rust programs in JavaScript through WASM!
 
