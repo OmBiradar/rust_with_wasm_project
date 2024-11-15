@@ -1,0 +1,19 @@
+{
+  "name": "rust_with_wasm_project",
+  "version": "1.0.0",
+  "description": "Using Rust with JavaScript by the power of WASM!",
+  "main": "index.html",
+  "scripts": {
+    "test": "http-server"
+  },
+  "keywords": [
+    "WASM",
+    "Rust",
+    "JavaScrip"
+  ],
+  "author": "Om Biradar",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
