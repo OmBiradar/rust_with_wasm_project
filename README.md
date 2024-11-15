@@ -2,6 +2,18 @@
 
 This is just a simple project which uses a Rust function which is called through JavaScript! Made possible by the incredible WASM support!!!
 
+## Explaination
+
+We first write a function in the `/src/lib.rs` file. Using the wasm library for rust, we declare the `greet` function as a function which is to be exported and used in JavaScript.
+
+Then we build the rust program. Sequently we also build the wrapper for the rust program to be used in JavaScript.
+
+We use the functions of the rust program in our JavaScript in `index.html` file through the wrapper we just made. 
+
+The website created just says 2 lines, the first one is "WebAssembly with Rust" which is a h1 tag hardcoded into the html file, which the other sentence is the output from the Rust program! 
+
+So basically we just integrated Rust programs in JavaScript through WASM!
+
 ## Steps to get it working
 
 Add a web-assembly target in your local rust compiler
